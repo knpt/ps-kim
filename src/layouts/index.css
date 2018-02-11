@@ -40,6 +40,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  text-decoration: none
 }
 a:active,
 a:hover {
@@ -332,7 +333,7 @@ hgroup {
   margin-bottom: 1.45rem;
 }
 ul {
-  margin-left: 1.45rem;
+  margin-left: 0;
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
@@ -460,7 +461,8 @@ form {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between
+  justify-content: space-between;
+
 }
 
 .nav-link {
@@ -476,6 +478,48 @@ form {
 .flip:hover {
   transform: scaleX(-1) translateX(0.15em)
 }
+
+.icon {
+  color: darkgreen;
+  transform: scale(2);
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: row
+}
+
+.abouttext {
+  margin: 5%;
+  text-align: center;
+  font-size: 15px;
+  max-width: 600; 
+}
+#projects {
+  width: 100%;
+  background-color: #F9F1EE
+}
+
+#headshot {
+  width: 50%;
+  max-width: '800'
+}
+ul {
+  line-height: 1
+}
+
+.gifwalkthrough {
+  display: inline-block;
+  width: 50%;
+  padding: 3% 
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 
 gradient-container {
   background-image:linear-gradient( 0deg, #F7F5F2 5%, #F2F5F2 16%, #E8F3F8 27%, #E4ECF3 40%, #F4EFED 52%, #F8EDE9 64%, #FDEBE0 75%, #FAE2CF 86%, #EFE7F6 98% );position:fixed;
