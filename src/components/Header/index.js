@@ -11,20 +11,17 @@ const Header = () => (
       margin: '0 auto',
       padding: '.5rem 1.0875rem',
     }} >
-    <h1 className="flip" style={{ marginTop: 30, textAlign: 'center' }}>
+    <h1 id="name" className="flip" style={{ marginTop: 30, textAlign: 'center' }}>
       <Link
         to="/"
         style={{
-        textAlign: 'center',
-        fontFamily: 'Peignot',
-        fontSize: '85px',
         color: '#1A5243',
-        textDecoration: 'none',
+        textDecoration: 'none'
       }} >
           K i m b e r l y &nbsp; T o n
       </Link>
     </h1>
-    <div className="container" style={{alignContent: 'center', justifyContent: 'space-evenly', margin: '20', width: '100%', height: '15%', fontSize: '18px'}}>
+    <div className="container" style={{alignContent: 'center', marginBottom: '1rem', justifyContent: 'space-evenly', height: '15%', fontSize: '18px'}}>
       <Scrollchor to="#about" className="nav-link">about</Scrollchor>
       <br />
       <Scrollchor to="#code" className="nav-link">code</Scrollchor>
