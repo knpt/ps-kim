@@ -457,6 +457,7 @@ form {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
+
 .container {
   display: flex;
   flex-direction: row;
@@ -466,6 +467,12 @@ form {
 }
 
 .nav-link {
+  text-decoration: none;
+  color: darkgreen;
+  font-size: 18px
+}
+
+.nav-link-in-text {
   text-decoration: none;
   color: darkgreen
 }
@@ -490,22 +497,34 @@ form {
 }
 
 .abouttext {
-  margin: 5%;
+  margin: 0;
+  padding: 5%;
   text-align: center;
-  font-size: 15px;
+  font-size: 13px;
   max-width: 600; 
 }
+
+.codetext {
+  justify-content: space-around;
+  padding: 5%;
+  height: 15%;
+  color: white;
+  font-size: 13px
+}
+
 #projects {
   width: 100%;
   background-color: #F9F1EE
 }
 
 #headshot {
-  width: 50%;
-  max-width: '800'
+  max-width: '800';
+  padding: 0
 }
+
 ul {
-  line-height: 1
+  line-height: 1;
+  list-style: none
 }
 
 .gifwalkthrough {
