@@ -746,7 +746,7 @@ pre tt:after {
 
 @media only screen and (max-width: 768px) {
   #name {
-    font-size: 10vh
+    font-size: 9vh
   }
   #gifwalkthrough {
     width: 100vw;
