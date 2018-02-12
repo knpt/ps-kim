@@ -515,7 +515,8 @@ form {
 }
 
 .navheader {
-  padding: 5%
+  padding: 5%;
+  margin: 0
 }
 
 .text {
@@ -536,6 +537,10 @@ form {
 #headshot {
   max-width: '800';
   padding: 0
+}
+
+#gifwalkthrough {
+  width: 20vw
 }
 
 ul {
@@ -734,5 +739,8 @@ pre tt:after {
 @media only screen and (max-width: 768px) {
   #name {
     font-size: 10vh
+  }
+  #gifwalkthrough {
+    width: 100vw
   }
 }

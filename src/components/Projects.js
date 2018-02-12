@@ -17,7 +17,7 @@ const Projects = () => (
           <br />
           You can find it deployed at <a href = "http://attune.fun" className = "nav-link-in-text" title = "attune" target = "_blank" rel="noopener noreferrer" > attune.fun </a>
         </div>
-        <div className="container col-lg-4 col-md-4 col-sm-12" >
+        <div id="gifwalkthrough" className="container col-lg-4 col-md-4 col-sm-12" >
           <img src={require('../images/attune-walkthrough.gif')} />
         </div>
       </div>
