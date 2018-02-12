@@ -11,8 +11,8 @@ const Code = () => (
         <div className="text col-lg-5 col-md-5 col-sm-12">
        I’m the most handy with Javascript (ES6) and the NERD stack: Node/Express, React, Redux, and SQL databases. I’m also a huuuge Firebase fangirl 🔥. 
         </div>
-        <div className="col-lg-5 col-md-5 col-sm-12">
-            <ul className="text list">
+        <div className="text list col-lg-5 col-md-5 col-sm-12">
+            <ul >
               <li>◐ &nbsp; Javascript (ES6) </li>
               <li>◑ &nbsp; Node/Express</li>
               <li>◐ &nbsp; React, Redux, React Native</li>

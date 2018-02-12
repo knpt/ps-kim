@@ -515,16 +515,23 @@ form {
 }
 
 .navheader {
-  padding: 5%
+  padding: 5%;
+  margin: 0
 }
 
 .text {
-  padding: 5%
+  padding: 5%; 
+  width: 50vw
 }
 
 #projects {
   background-color: #F9F1EE;
   padding-bottom: 5%
+}
+
+#projecttext {
+  padding: 5%;
+  width: 50vw
 }
 #name {
   text-align: center;
@@ -536,6 +543,11 @@ form {
 #headshot {
   max-width: '800';
   padding: 0
+}
+
+#gifwalkthrough {
+  width: 20vw;
+  justify-content: center
 }
 
 ul {
@@ -616,6 +628,7 @@ ol li {
 }
 ul li {
   padding-left: 0;
+  padding-right: 5% 
 }
 li > ol {
   margin-left: 1.45rem;
@@ -734,5 +747,23 @@ pre tt:after {
 @media only screen and (max-width: 768px) {
   #name {
     font-size: 10vh
+  }
+  #gifwalkthrough {
+    width: 100vw;
+    padding-top: 5%
+  }
+
+  .text {
+    width: 100vw
+  }
+  #projecttext {
+    width: 100vw;
+    padding: 5%
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
   }
 }

@@ -8,7 +8,7 @@ const Projects = () => (
         <div className="container navheader col-lg-2 col-md-2 col-sm-12">
           <Scrollchor to="" className="nav-link">projects</Scrollchor>
         </div>
-        <div className="col-lg-6 col-md-6 col-sm-12" style={{display: 'inline-block', padding: '5%'}}>
+        <div id="projecttext" className="col-lg-6 col-md-6 col-sm-12" >
           Here is some stuff I've made!
           <br />
           <br />
@@ -17,7 +17,7 @@ const Projects = () => (
           <br />
           You can find it deployed at <a href = "http://attune.fun" className = "nav-link-in-text" title = "attune" target = "_blank" rel="noopener noreferrer" > attune.fun </a>
         </div>
-        <div className="container col-lg-4 col-md-4 col-sm-12" >
+        <div id="gifwalkthrough" className="container col-lg-4 col-md-4 col-sm-12" >
           <img src={require('../images/attune-walkthrough.gif')} />
         </div>
       </div>
