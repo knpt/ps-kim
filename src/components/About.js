@@ -12,7 +12,7 @@ const About = () => (
           I received a BA in Molecular Biology + English Literature from Yale University and an MS in Human Nutrition from Columbia University before coming to Grace Hopper. 
           <br />
           <br />
-          I’m also a ballet dancer-- you can find me in class nearly every day in the city at Ballet Arts, Mark Morris or Steps on Broadway, and in my free time I also love cook, read, and climb rocks 💪 
+          I’m also a ballet dancer-- you can find me in class nearly every day in the city at Ballet Arts, Mark Morris or Steps on Broadway, and in my free time I also love to cook, read, and climb rocks 💪 
           <br />
         </div>
       </div>
