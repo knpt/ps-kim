@@ -8,7 +8,7 @@ const Projects = () => (
         <div className="container navheader col-lg-2 col-md-2 col-sm-12">
           <Scrollchor to="" className="nav-link">projects</Scrollchor>
         </div>
-        <div className="col-lg-6 col-md-6 col-sm-12" style={{display: 'inline-block', padding: '5%'}}>
+        <div id="projecttext" className="col-lg-6 col-md-6 col-sm-12" >
           Here is some stuff I've made!
           <br />
           <br />

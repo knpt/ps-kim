@@ -520,12 +520,18 @@ form {
 }
 
 .text {
-  padding: 5%
+  padding: 5%; 
+  width: 50vw
 }
 
 #projects {
   background-color: #F9F1EE;
   padding-bottom: 5%
+}
+
+#projecttext {
+  padding: 5%;
+  width: 50vw
 }
 #name {
   text-align: center;
@@ -621,6 +627,7 @@ ol li {
 }
 ul li {
   padding-left: 0;
+  padding-right: 5% 
 }
 li > ol {
   margin-left: 1.45rem;
@@ -742,5 +749,19 @@ pre tt:after {
   }
   #gifwalkthrough {
     width: 100vw
+  }
+
+  .text {
+    width: 100vw
+  }
+  #projecttext {
+    width: 100vw;
+    padding: 5%
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
   }
 }
