@@ -546,7 +546,8 @@ form {
 }
 
 #gifwalkthrough {
-  width: 20vw
+  width: 20vw;
+  justify-content: center
 }
 
 ul {
