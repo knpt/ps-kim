@@ -5,6 +5,7 @@ import Scrollchor from 'react-scrollchor'
 
 const Header = () => (
   <div
+    id = "header"
     style={{
       marginBottom: '1rem',
       backgroundColor: '#FCF0E8',
