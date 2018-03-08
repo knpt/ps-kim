@@ -1,5 +1,6 @@
 import React from 'react'
 import Scrollchor from 'react-scrollchor'
+import TechTalk from './TechTalk'
 
 const Projects = () => (
   <section id = "projects">
@@ -21,6 +22,12 @@ const Projects = () => (
           <img src={require('../images/attune-walkthrough.gif')} />
         </div>
       </div>
+    </div>
+    <div id = "techtalk" className="row container">
+      <div id = "techtalktext">
+        I gave a talk explaining the virtual DOM, which at least 40 internet strangers have given a thumbs up! 
+      </div>
+        <TechTalk />
     </div>
   </section>
 )

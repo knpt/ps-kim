@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "kimberly-ton-personal-site",
+  "description": "Personal website made with Gatsby",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Kimberly Ton",
   "dependencies": {
     "gatsby": "^1.9.158",
     "gatsby-link": "^1.6.34",
@@ -10,7 +10,8 @@
     "react-fullpage": "^0.1.18",
     "react-helmet": "^5.2.0",
     "react-icons": "^2.2.7",
-    "react-scrollchor": "^4.2.1"
+    "react-scrollchor": "^4.2.1",
+    "react-youtube": "^7.5.0"
   },
   "keywords": [
     "gatsby"

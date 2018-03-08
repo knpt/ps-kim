@@ -526,7 +526,8 @@ form {
 
 #projects {
   background-color: #F9F1EE;
-  padding-bottom: 5%
+  /* background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%); */
+  padding-bottom: 0
 }
 
 #projecttext {
@@ -540,6 +541,11 @@ form {
   color: #1A5243;
   text-decoration: none
 }
+
+/* #header {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+} */
+
 #headshot {
   max-width: '800';
   padding: 0
@@ -550,10 +556,20 @@ form {
   justify-content: center
 }
 
+#techtalk {
+  padding: 5%;
+  font-size: 13px;
+  /* background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%); */
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+}
+
+#techtalktext {
+  padding-right: 5% 
+}
+
 ul {
   list-style: none
 }
-
 
 .contact {
   display: flex;
@@ -562,9 +578,6 @@ ul {
 }
 
 
-gradient-container {
-  background-image:linear-gradient( 0deg, #F7F5F2 5%, #F2F5F2 16%, #E8F3F8 27%, #E4ECF3 40%, #F4EFED 52%, #F8EDE9 64%, #FDEBE0 75%, #FAE2CF 86%, #EFE7F6 98% );position:fixed;
-}
 noscript {
   margin-left: 0;
   margin-right: 0;
