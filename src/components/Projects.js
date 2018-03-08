@@ -25,9 +25,9 @@ const Projects = () => (
     </div>
     <div id = "techtalk" className="row container">
       <div id = "techtalktext">
-        I gave a talk explaining the virtual DOM, which at least 40 internet strangers have given a thumbs up! 
+        I gave a talk explaining the virtual DOM, which at least 40 kind internet strangers have given a thumbs up! 
       </div>
-        <TechTalk />
+        <TechTalk id="youtube" />
     </div>
   </section>
 )
